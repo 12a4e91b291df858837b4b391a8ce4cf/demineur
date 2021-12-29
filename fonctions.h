@@ -15,8 +15,8 @@ typedef struct Grille {
     unsigned int* mines;
 }Grille;
 
-
-void afficherProbleme(Grille *g);
+Grille creerGrille(unsigned int nbLignes,unsigned int nbColonnes, unsigned int nbMines);
+void afficherProbleme(const Grille *g);
 struct Grille creerGrille(int nbLignes,int nbColonnes,int nbMines);
 
 

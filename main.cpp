@@ -17,7 +17,6 @@ int main()
         case 1:
             cin >> nbLignes >> nbColonnes >> nbMines;
             grille = creerGrille(nbLignes,nbColonnes,nbMines);
-
             afficherProbleme(&grille);
 
         break;
