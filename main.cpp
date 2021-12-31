@@ -1,6 +1,6 @@
 #include "fonctions.h"
 #include "fonctions.cpp"
-
+#include "test.cpp"
 
 int main()
 {
@@ -18,17 +18,16 @@ int main()
             cin >> nbLignes >> nbColonnes >> nbMines;
             grille = creerGrille(nbLignes,nbColonnes,nbMines);
             afficherProbleme(&grille);
-
         break;
-
         case 2:
-            cin>>grille.nbLignes>>grille.nbColonnes>>grille.nbMines;
-            for (int i = 0; i < grille.nbMines; i++){
-                cin>>grille.mines[i];
-            }
-
-
+        case 10:
+            testConversion();
+            testRemplirGrille();
+        break;
     }
 
     return 0;
 }
+
+
+
