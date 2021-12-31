@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ismailjatt9/Documents/demineur/header/fonction.h
+iostream
+-
+time.h
+-
+assert.h
+-
+../header/helper.h
+/Users/ismailjatt9/Documents/demineur/header/helper.h
+../header/structure.h
+/Users/ismailjatt9/Documents/demineur/header/structure.h
+
+/Users/ismailjatt9/Documents/demineur/header/helper.h
+../header/fonction.h
+/Users/ismailjatt9/Documents/demineur/header/fonction.h
+../header/structure.h
+/Users/ismailjatt9/Documents/demineur/header/structure.h
+string
+-
+
+/Users/ismailjatt9/Documents/demineur/header/structure.h
+
+/Users/ismailjatt9/Documents/demineur/header/test.h
+fonction.h
+/Users/ismailjatt9/Documents/demineur/header/fonction.h
+
+/Users/ismailjatt9/Documents/demineur/source/test.cpp
+../header/test.h
+/Users/ismailjatt9/Documents/demineur/header/test.h
+
